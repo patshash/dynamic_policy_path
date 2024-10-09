@@ -1,0 +1,22 @@
+{
+    "custom_metadata": [
+    {
+        "appid": "a0009a",
+        "env": "prod",
+        "appid_env": "a0009a-prod",
+        "elz_appid_env": "a0009a-prd01",
+        "cross_appid_aws_role": "null",
+        "cross_appid_aws_secret_engine": "null",
+        "roles": ["aaa", "bbb", "ccc"]
+    },
+    {
+        "appid": "a0009b",
+        "env": "prod",
+        "appid_env": "a0009a-prod",
+        "elz_appid_env": "a0009a-prd01",
+        "cross_appid_aws_role": "null",
+        "cross_appid_aws_secret_engine": "null",
+        "roles": ["aaa", "bbb", "ccc"]
+    }
+    ]
+ }

@@ -1,0 +1,5 @@
+%{ for role in vault_roles ~}
+path "secret/${role}" {
+    capabilities = ["create", "read", "update", "delete", "list" ]
+ }
+%{ endfor ~}
